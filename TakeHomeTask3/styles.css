@@ -1,0 +1,15 @@
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    /* Adjust the margin as needed */
+}
+
+.product {
+    width: 45%;
+    /* Adjust the width to control the space between the sections */
+    border: 1px solid #ddd;
+    /* Add a border for better separation */
+    padding: 15px;
+    /* Add padding for a cleaner look */
+}
