@@ -1,0 +1,56 @@
+body{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-areas:
+        "header header header"
+        "aside main main"
+        "footer footer footer";
+    /* grid-gap: 1rem;
+    padding: 1px;
+    grid-gap: 1px; */
+
+}
+.container {
+    grid-area: main;
+    padding-left: 200px;
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: antiquewhite;
+
+}
+
+.foto{
+    display: flex;
+    grid-area:aside;
+    background-color: aqua;
+}
+
+.professional-skills
+
+.education {
+    margin-bottom: 1rem;
+}
+.personal-details h3
+
+.professional-skills h3
+
+/* .education h3 {
+    grid-area: main;
+} */
+.main{
+    grid-area: main;
+    background-color: red;
+}
+
+.Footer{
+    grid-area: footer;
+    text-align: center;
+    background-color: aqua;
+
+}
