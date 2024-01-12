@@ -1,3 +1,0 @@
-# PraktikumWeb
-
-Pembelajaran Praktikum Web 
